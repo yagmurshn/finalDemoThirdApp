@@ -71,7 +71,7 @@ Our Newsletter!‎‎‎‎" color="#1A1A18FF" v-bind:snapX="false"
         ncHoverBackgroundColor="#transparent" ncDisableBackgroundColor="#transparent"
         id="11a3d744-d896-4bee-9f79-a0a550383632"
         v-bind:style="{'width':'100%','filter':'blur(30px)','height':'100%','zIndex':7,'fontStyle':'normal','marginTop':'0px','fontFamily':'Roboto','fontWeight':400,'lineHeight':'1.4','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'pre-wrap','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','backdropFilter':'none','borderTopWidth':'1px','textDecoration':'none','borderLeftWidth':'1px','borderRightWidth':'1px','borderBottomWidth':'1px'}"/>
-      <WButton tag="button" href="Screen+1#412daf88-a0ee-4ba7-9011-5c05b7c9dfd3" v-bind:pill="false" size="md"
+      <WButton tag="button" href="#412daf88-a0ee-4ba7-9011-5c05b7c9dfd3" v-bind:pill="false" size="md"
         text="Explore" type="button" v-bind:block="false" color="#FFFFFF" v-bind:snapX="false" v-bind:snapY="false"
         theme="theme--light01" v-bind:rotate="0" v-bind:squared="false" variant="primary" ncBgType="bgColor"
         position="relative" v-bind:isEnabled="true" background="#3D0000FF" linkTarget="_top" ncLinkType="link"

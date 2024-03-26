@@ -33,7 +33,7 @@
         borderRadius="0px" ncTypography="custom" v-bind:resetTrigger="false" animationName="" ncTooltipText=""
         verticalWidth="60px" formTransition="none"
         v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
-        verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink="Screen+1"
+        verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink="/"
         horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
         nucalScaleHeight="" ncClickBorderColor="#403D39FF" ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#E8C7C7FF"
         ncHoverBorderColor="#CCC5B9FF" ncDisableBorderColor="transparent" ncClickBackgroundColor="#403D39FF"

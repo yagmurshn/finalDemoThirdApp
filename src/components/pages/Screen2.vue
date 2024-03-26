@@ -26,14 +26,14 @@
         highlight="transparent" background="transparent" v-bind:isClipping="false" ncTypography="custom"
         animationName="" ncTooltipText="" id="37d3af03-338d-4eb0-bcac-df703324c25a"
         v-bind:style="{'dir':'ltr','width':'100%','bqCite':'','filter':'none','height':'100%','zIndex':6,'fontStyle':'normal','marginTop':'0px','textAlign':'left','fontFamily':'Open Sans','fontWeight':300,'lineHeight':'1.4','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'pre-wrap','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','letterSpacing':'0px','paddingBottom':'0px','textTransform':'none','backdropFilter':'none','textDecoration':'none','textFormatting':'p'}"/>
-      <WButton tag="button" href="https://developers.nucal.com/" v-bind:pill="false" size="md" text="Go to site  ➙"
-        type="button" v-bind:block="false" color="#3D0000FF" v-bind:snapX="false" v-bind:snapY="false"
-        theme="theme--light01" v-bind:rotate="0" v-bind:squared="false" variant="primary" ncBgType="bgColor"
-        position="relative" v-bind:isEnabled="true" background="#E8C7C7FF" linkTarget="_blank" ncLinkType="link"
-        borderColor="#007bff" borderRadius="0px" ncTypography="custom" v-bind:resetTrigger="false" animationName=""
-        ncTooltipText="" verticalWidth="60px" formTransition="none"
+      <WButton tag="button" href="" v-bind:pill="false" size="md" text="Go to back  ➙‎" type="button"
+        v-bind:block="false" color="#3D0000FF" v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01"
+        v-bind:rotate="0" v-bind:squared="false" variant="primary" ncBgType="bgColor" position="relative"
+        v-bind:isEnabled="true" background="#E8C7C7FF" linkTarget="_top" ncLinkType="router_link" borderColor="#007bff"
+        borderRadius="0px" ncTypography="custom" v-bind:resetTrigger="false" animationName="" ncTooltipText=""
+        verticalWidth="60px" formTransition="none"
         v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
-        verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink=""
+        verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink="Screen+1"
         horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
         nucalScaleHeight="" ncClickBorderColor="#403D39FF" ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#E8C7C7FF"
         ncHoverBorderColor="#CCC5B9FF" ncDisableBorderColor="transparent" ncClickBackgroundColor="#403D39FF"
@@ -78,12 +78,12 @@
           v-bind:isClipping="false" linkTarget="_top" ncLinkType="link" ncTypography="custom" animationName=""
           ncTooltipText="" toForRouterLink="" id="19f74300-ee22-4c87-8f8c-37110812a837"
           v-bind:style="{'dir':'ltr','width':'100%','bqCite':'','filter':'none','height':'100%','zIndex':14,'fontStyle':'normal','marginTop':'0px','textAlign':'left','fontFamily':'Playfair Display','fontWeight':400,'lineHeight':'1.4','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'pre-wrap','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','letterSpacing':'1px','paddingBottom':'0px','textTransform':'none','backdropFilter':'none','textDecoration':'none','textFormatting':'p'}"/>
-        <WButton tag="button" href="" v-bind:pill="false" size="md" text="Call‎" type="button" v-bind:block="false"
-          color="#FFFCF2FF" v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:rotate="0"
-          v-bind:squared="false" variant="primary" ncBgType="bgColor" position="relative" v-bind:isEnabled="true"
-          background="#403D39FF" linkTarget="_top" ncLinkType="link" borderColor="#E8C7C7FF" borderWidth="2px"
-          borderRadius="0px" ncTypography="custom" v-bind:resetTrigger="false" animationName="" ncTooltipText=""
-          verticalWidth="60px" formTransition="none"
+        <WButton tag="button" href="callto:905309564205" v-bind:pill="false" size="md" text="Call‎" type="button"
+          v-bind:block="false" color="#FFFCF2FF" v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01"
+          v-bind:rotate="0" v-bind:squared="false" variant="primary" ncBgType="bgColor" position="relative"
+          v-bind:isEnabled="true" background="#403D39FF" linkTarget="_top" ncLinkType="link" borderColor="#E8C7C7FF"
+          borderWidth="2px" borderRadius="0px" ncTypography="custom" v-bind:resetTrigger="false" animationName=""
+          ncTooltipText="" verticalWidth="60px" formTransition="none"
           v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
           verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="" toForRouterLink=""
           horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
@@ -183,42 +183,6 @@
       <WDivider shape="solid" v-bind:rotate="0" position="relative" background="#CCC5B9FF" dividerWidth="1px"
         animationName="" ncTooltipText="" id="0282fe5f-5fff-4766-a77e-13668af9f5de"
         v-bind:style="{'width':'100%','filter':'none','height':'100%','zIndex':9,'visibility':'visible','mixBlendMode':'normal','backdropFilter':'none'}"/>
-      <Convergence position="relative" id="a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024"
-        v-bind:style="{'width':'100%','height':'100%','zIndex':10}">
-        <WImage v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false" v-bind:rotate="0" v-bind:rounded="false"
-          clipPath=""
-          imageUrl="https://file.dev.nucal.com/5d3dc32d998c020bb22a126f171a370407da5c8e/public/2bc66947-e74b-4924-9280-3e853b043b12"
-          position="relative" objectFit="fill" v-bind:thumbnail="false" blankColor="#000000"
-          defaultUrl="https://file.dev.nucal.com/2f9057712f3200f5cfc575e29a426aca6b807c36/public/fc6df702-6ee1-41cf-b45f-09d0431769e8"
-          v-bind:disability="false" dataLoading="static" animationName=""
-          ncTooltipText="Please write a text to display in tooltip..."
-          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
-          ncHoverBorderColor="#000000" ncTappedBorderColor="#000000" dataModelForDynamicType="string"
-          id="c6564c2d-9214-4be2-9381-56c0abd9d023"
-          v-bind:style="{'width':'100%','filter':'none','height':'100%','zIndex':11,'boxShadow':'','marginTop':'0px','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','paddingBottom':'0px','backdropFilter':'none','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
-        <WImage v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false" v-bind:rotate="0" v-bind:rounded="false"
-          clipPath=""
-          imageUrl="https://file.dev.nucal.com/5d3dc32d998c020bb22a126f171a370407da5c8e/public/05be1392-c180-4f48-90cb-a70e0201c07e"
-          position="relative" objectFit="fill" v-bind:thumbnail="false" blankColor="#000000"
-          defaultUrl="https://file.dev.nucal.com/2f9057712f3200f5cfc575e29a426aca6b807c36/public/fc6df702-6ee1-41cf-b45f-09d0431769e8"
-          v-bind:disability="false" dataLoading="static" animationName=""
-          ncTooltipText="Please write a text to display in tooltip..."
-          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
-          ncHoverBorderColor="#000000" ncTappedBorderColor="#000000" dataModelForDynamicType="string"
-          id="db15260b-f48f-48aa-851f-34ccca224696"
-          v-bind:style="{'width':'100%','filter':'none','height':'100%','zIndex':12,'boxShadow':'','marginTop':'0px','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','paddingBottom':'0px','backdropFilter':'none','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
-        <WImage v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false" v-bind:rotate="0" v-bind:rounded="false"
-          clipPath=""
-          imageUrl="https://file.dev.nucal.com/5d3dc32d998c020bb22a126f171a370407da5c8e/public/e8680598-75bc-40eb-8c74-287739426bdf"
-          position="relative" objectFit="fill" v-bind:thumbnail="false" blankColor="#000000"
-          defaultUrl="https://file.dev.nucal.com/2f9057712f3200f5cfc575e29a426aca6b807c36/public/fc6df702-6ee1-41cf-b45f-09d0431769e8"
-          v-bind:disability="false" dataLoading="static" animationName=""
-          ncTooltipText="Please write a text to display in tooltip..."
-          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
-          ncHoverBorderColor="#000000" ncTappedBorderColor="#000000" dataModelForDynamicType="string"
-          id="ad0e9a00-528c-42b4-8d89-19f21664f3cb"
-          v-bind:style="{'width':'100%','filter':'none','height':'100%','zIndex':13,'boxShadow':'','marginTop':'0px','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','paddingBottom':'0px','backdropFilter':'none','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
-      </Convergence>
       <NucGroupElement v-bind:isLock="false" bgColor="" ncBgType="bgColor" position="relative" ncTooltipText=""
         id="6de1a7bc-9a75-4cfc-96e1-233a1c3c1509"
         v-bind:style="{'color':'#FFFFFF','width':'100%','height':'100%','zIndex':11,'tabIndex':'-1','boxShadow':'','marginTop':'0px','textAlign':'center','lineHeight':'1.25','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'none','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'1px','textDecoration':'none','borderLeftWidth':'1px','borderRightWidth':'1px','borderBottomWidth':'1px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
@@ -243,6 +207,43 @@
           ncTooltipText="" toForRouterLink="" id="3031cd75-ef22-4ae5-9a34-adc52f093fca"
           v-bind:style="{'dir':'ltr','width':'100%','bqCite':'','filter':'none','height':'100%','zIndex':16,'fontStyle':'normal','marginTop':'0px','textAlign':'center','fontFamily':'Open Sans','fontWeight':300,'lineHeight':'1.4','marginLeft':'0px','paddingTop':'0px','textIndent':'0px','visibility':'visible','whiteSpace':'pre-wrap','marginRight':'0px','paddingLeft':'0px','wordSpacing':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','letterSpacing':'1px','paddingBottom':'0px','textTransform':'none','backdropFilter':'none','textDecoration':'none','textFormatting':'p'}"/>
       </NucGroupElement>
+      <WImage href="https://www.youtube.com" v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false"
+        v-bind:rotate="0" v-bind:rounded="false" clipPath=""
+        imageUrl="https://file.dev.nucal.com/5d3dc32d998c020bb22a126f171a370407da5c8e/public/e8680598-75bc-40eb-8c74-287739426bdf"
+        position="relative" objectFit="fill" v-bind:thumbnail="false" blankColor="#000000"
+        defaultUrl="https://file.dev.nucal.com/2f9057712f3200f5cfc575e29a426aca6b807c36/public/fc6df702-6ee1-41cf-b45f-09d0431769e8"
+        v-bind:disability="false" dataLoading="static" animationName=""
+        ncTooltipText="Please write a text to display in tooltip..."
+        v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+        ncHoverBorderColor="#000000" ncTappedBorderColor="#000000" dataModelForDynamicType="string"
+        id="ad0e9a00-528c-42b4-8d89-19f21664f3cb"
+        v-bind:style="{'width':'100%','filter':'none','height':'100%','zIndex':12,'boxShadow':'','marginTop':'0px','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','paddingBottom':'0px','backdropFilter':'none','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+      <WImage href="https://www.linkedin.com/company/nucal-innovation" v-bind:blank="false" v-bind:snapX="false"
+        v-bind:snapY="false" v-bind:rotate="0" v-bind:rounded="false" clipPath=""
+        imageUrl="https://file.dev.nucal.com/5d3dc32d998c020bb22a126f171a370407da5c8e/public/05be1392-c180-4f48-90cb-a70e0201c07e"
+        position="relative" objectFit="fill" v-bind:thumbnail="false" blankColor="#000000"
+        defaultUrl="https://file.dev.nucal.com/2f9057712f3200f5cfc575e29a426aca6b807c36/public/fc6df702-6ee1-41cf-b45f-09d0431769e8"
+        v-bind:disability="false" dataLoading="static" animationName=""
+        ncTooltipText="Please write a text to display in tooltip..."
+        v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+        ncHoverBorderColor="#000000" ncTappedBorderColor="#000000" dataModelForDynamicType="string"
+        id="db15260b-f48f-48aa-851f-34ccca224696"
+        v-bind:style="{'width':'100%','filter':'none','height':'100%','zIndex':13,'boxShadow':'','marginTop':'0px','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','paddingBottom':'0px','backdropFilter':'none','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+      <WImage href="https://www.instagram.com" v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false"
+        v-bind:rotate="0" v-bind:rounded="false" clipPath=""
+        imageUrl="https://file.dev.nucal.com/5d3dc32d998c020bb22a126f171a370407da5c8e/public/2bc66947-e74b-4924-9280-3e853b043b12"
+        position="relative" objectFit="fill" v-bind:thumbnail="false" blankColor="#000000"
+        defaultUrl="https://file.dev.nucal.com/2f9057712f3200f5cfc575e29a426aca6b807c36/public/fc6df702-6ee1-41cf-b45f-09d0431769e8"
+        v-bind:disability="false" dataLoading="static" animationName=""
+        ncTooltipText="Please write a text to display in tooltip..."
+        v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+        ncHoverBorderColor="#000000" ncTappedBorderColor="#000000" dataModelForDynamicType="string"
+        id="c6564c2d-9214-4be2-9381-56c0abd9d023"
+        v-bind:style="{'width':'100%','filter':'none','height':'100%','zIndex':14,'boxShadow':'','marginTop':'0px','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','mixBlendMode':'normal','paddingRight':'0px','paddingBottom':'0px','backdropFilter':'none','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+      <LinkContainer href="https://linkedin.com/company/nucal-innovation" v-bind:snapX="false" v-bind:snapY="false"
+        v-bind:isLock="false" position="relative" linkTarget="_blank" ncLinkType="link" formTransition="none"
+        toForRouterLink="to" id="526778cd-ac9d-4738-936f-81f9e5c7304b"
+        v-bind:style="{'width':'100%','height':'100%','zIndex':15,'marginTop':'0px','marginLeft':'0px','paddingTop':'','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':''}"/>
     </SectionContainer>
   </DropZone>
 </template>
@@ -286,21 +287,33 @@ export default {
           grid-area: 10/6/11/11;
           }[id='6900cfcb-14d1-4583-a6f7-3f354eb4b0a3'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 5rem 0 18.984375rem 8.984375rem 43.046875rem 6.484375rem 12.5rem 0 5rem;
-             grid-template-rows: minmax(2.5rem, max-content) minmax(0.625rem, max-content) minmax(2.5rem, max-content) minmax(0.625rem, max-content) 0 minmax(2.5rem, max-content) 0 minmax(3.28125rem, max-content) minmax(2.5rem, max-content);
+             grid-template-columns: 5rem 0 18.984375rem 8.984375rem 43.046875rem 6.40625rem 0.46875rem 2.5rem 2.5rem 2.5rem 2.5rem 2.109375rem 0.390625rem 0.546875rem 4.0625rem;
+             grid-template-rows: minmax(2.5rem, max-content) minmax(0.625rem, max-content) minmax(0.390625rem, max-content) 0 0 minmax(2.5rem, max-content) 0 0 minmax(0.234375rem, max-content) 0 minmax(0.15625rem, max-content) minmax(2.34375rem, max-content) 0 minmax(3.28125rem, max-content) minmax(2.5rem, max-content);
           }
 [id='cba5184c-9294-451c-a503-d2c085e13fb2']{
-          grid-area: 2/2/5/5;
+          grid-area: 2/2/10/5;
           font-size: Max(Min(24rem, 12px),1.875rem);
           }
 [id='0282fe5f-5fff-4766-a77e-13668af9f5de']{
-          grid-area: 6/3/8/8;
-          }
-[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024']{
-          grid-area: 3/7/4/9;
+          grid-area: 11/3/14/13;
           }
 [id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509']{
-          grid-area: 7/4/9/6;
+          grid-area: 13/4/15/6;
+          }
+[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
+          grid-area: 4/8/7/9;
+          aspect-ratio: 1;
+          }
+[id='db15260b-f48f-48aa-851f-34ccca224696']{
+          grid-area: 5/10/8/11;
+          aspect-ratio: 1;
+          }
+[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
+          grid-area: 6/12/9/14;
+          aspect-ratio: 1;
+          }
+[id='526778cd-ac9d-4738-936f-81f9e5c7304b']{
+          grid-area: 3/7/12/15;
           }[id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509'] /deep/ > .component-wrapper{
              display: grid; 
              grid-template-columns: 0.703125rem 10.78125rem 2.5rem 10.78125rem 2.5rem 10.78125rem 2.5rem 10.78125rem 0.703125rem;
@@ -321,22 +334,6 @@ export default {
 [id='3031cd75-ef22-4ae5-9a34-adc52f093fca']{
           grid-area: 5/8/9/9;
           font-size: Max(Min(16rem, 12px),1.25rem);
-          }[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024'] /deep/ > .component-wrapper{
-             display: grid; 
-             grid-template-columns: 0 2.5rem 2.5rem 2.5rem 2.5rem 2.5rem 0;
-             grid-template-rows: 0 0 0 minmax(2.5rem, max-content) 0 0 0;
-          }
-[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
-          grid-area: 2/6/5/7;
-          aspect-ratio: 1;
-          }
-[id='db15260b-f48f-48aa-851f-34ccca224696']{
-          grid-area: 3/4/6/5;
-          aspect-ratio: 1;
-          }
-[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
-          grid-area: 4/2/7/3;
-          aspect-ratio: 1;
           }[id='30a22e21-3d93-453f-b7ad-bf8fdf41ee20'] /deep/ > .component-wrapper{
              display: grid; 
              grid-template-columns: 4.296875rem 19.609375rem 18.828125rem 14.53125rem 18.828125rem 19.609375rem 4.296875rem;
@@ -455,57 +452,53 @@ export default {
           grid-area: 10/6/11/7;
           }[id='6900cfcb-14d1-4583-a6f7-3f354eb4b0a3'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 3.125rem 18.45703125rem 4.405381944444445rem 27.19184027777778rem 2.430555555555556rem 12.152777777777779rem 4.405381944444445rem 18.45703125rem 3.125rem;
-             grid-template-rows: minmax(2.34375rem, max-content) minmax(0.5859375rem, max-content) minmax(2.34375rem, max-content) minmax(0.5859375rem, max-content) 0 minmax(2.34375rem, max-content) 0 minmax(3.076171875rem, max-content) minmax(2.34375rem, max-content);
+             grid-template-columns: 3.125rem 0 18.26675257731959rem 8.644759450171822rem 41.419673539518904rem 6.164089347079038rem 0.45103092783505155rem 2.405498281786942rem 2.405498281786942rem 2.405498281786942rem 2.405498281786942rem 2.029639175257732rem 0.3758591065292096rem 0.5262027491408935rem 3.125rem;
+             grid-template-rows: minmax(2.34375rem, max-content) minmax(0.5859375rem, max-content) minmax(0.3662109375rem, max-content) 0 0 minmax(2.34375rem, max-content) 0 0 minmax(0.2197265625rem, max-content) 0 minmax(0.146484375rem, max-content) minmax(2.197265625rem, max-content) 0 minmax(3.076171875rem, max-content) minmax(2.34375rem, max-content);
           }
 [id='cba5184c-9294-451c-a503-d2c085e13fb2']{
-          grid-area: 2/4/5/5;
-          font-size: Max(Min(24rem, 12px),1.8229166666666667rem);
+          grid-area: 2/3/10/5;
+          font-size: Max(Min(24rem, 12px),1.8041237113402062rem);
           }
 [id='0282fe5f-5fff-4766-a77e-13668af9f5de']{
-          grid-area: 6/2/8/9;
-          }
-[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024']{
-          grid-area: 3/6/4/7;
+          grid-area: 11/2/14/13;
           }
 [id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509']{
-          grid-area: 7/3/9/8;
+          grid-area: 13/4/15/6;
+          }
+[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
+          grid-area: 4/8/7/9;
+          aspect-ratio: 1;
+          }
+[id='db15260b-f48f-48aa-851f-34ccca224696']{
+          grid-area: 5/10/8/11;
+          aspect-ratio: 1;
+          }
+[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
+          grid-area: 6/12/9/14;
+          aspect-ratio: 1;
+          }
+[id='526778cd-ac9d-4738-936f-81f9e5c7304b']{
+          grid-area: 3/7/12/15;
           }[id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 3.125rem 9.44191261574074rem 2.189429012345679rem 9.44191261574074rem 2.189429012345679rem 9.44191261574074rem 2.189429012345679rem 9.44191261574074rem 3.125rem;
+             grid-template-columns: 3.125rem 9.330851470026728rem 2.1636757031946035rem 9.330851470026728rem 2.1636757031946035rem 9.330851470026728rem 2.1636757031946035rem 9.330851470026728rem 3.125rem;
              grid-template-rows: minmax(0.6591796875rem, max-content) 0 0 0 minmax(1.8310546875rem, max-content) 0 0 0 minmax(2.34375rem, max-content);
           }
 [id='95103fb9-09fb-476d-8c89-4e531f075ded']{
           grid-area: 2/2/6/3;
-          font-size: Max(Min(16rem, 12px),1.0947145061728396rem);
+          font-size: Max(Min(16rem, 12px),1.0818378515973017rem);
           }
 [id='42c9ac80-2000-47c0-9bf1-aa90f3233a93']{
           grid-area: 3/4/7/5;
-          font-size: Max(Min(16rem, 12px),1.0947145061728396rem);
+          font-size: Max(Min(16rem, 12px),1.0818378515973017rem);
           }
 [id='72db1b49-68c2-450f-a133-c72deed0bd62']{
           grid-area: 4/6/8/7;
-          font-size: Max(Min(16rem, 12px),1.0947145061728396rem);
+          font-size: Max(Min(16rem, 12px),1.0818378515973017rem);
           }
 [id='3031cd75-ef22-4ae5-9a34-adc52f093fca']{
           grid-area: 5/8/9/9;
-          font-size: Max(Min(16rem, 12px),1.0947145061728396rem);
-          }[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024'] /deep/ > .component-wrapper{
-             display: grid; 
-             grid-template-columns: 0 2.430555555555556rem 2.430555555555556rem 2.430555555555556rem 2.430555555555556rem 2.430555555555556rem 0;
-             grid-template-rows: 0 0 0 minmax(2.34375rem, max-content) 0 0 0;
-          }
-[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
-          grid-area: 2/6/5/7;
-          aspect-ratio: 1;
-          }
-[id='db15260b-f48f-48aa-851f-34ccca224696']{
-          grid-area: 3/4/6/5;
-          aspect-ratio: 1;
-          }
-[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
-          grid-area: 4/2/7/3;
-          aspect-ratio: 1;
+          font-size: Max(Min(16rem, 12px),1.0818378515973017rem);
           }[id='30a22e21-3d93-453f-b7ad-bf8fdf41ee20'] /deep/ > .component-wrapper{
              display: grid; 
              grid-template-columns: 3.125rem 18.771367521367523rem 18.023504273504276rem 13.91025641025641rem 18.023504273504276rem 18.771367521367523rem 3.125rem;
@@ -624,57 +617,53 @@ export default {
           grid-area: 10/6/11/7;
           }[id='6900cfcb-14d1-4583-a6f7-3f354eb4b0a3'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 4.166666667rem 17.578124999718746rem 11.14004629611805rem 7.16145833321875rem 11.574074073888886rem 7.161458333218751rem 11.140046296118058rem 17.578124999718746rem 4.166666667rem;
-             grid-template-rows: minmax(2.2916666666500003rem, max-content) minmax(3.4374999999750004rem, max-content) minmax(2.2916666668333336rem, max-content) minmax(2.2916666666500003rem, max-content) 0 minmax(2.2916666666500003rem, max-content) 0 minmax(3.007812499978125rem, max-content) minmax(2.2916666668333336rem, max-content);
+             grid-template-columns: 4.166666667rem 0 17.396907216216498rem 8.233104238127149rem 39.447308132244rem 5.87056128283849rem 0.42955326459793824rem 2.2909507445223376rem 2.2909507445223376rem 2.2909507445223376rem 2.2909507445223376rem 1.932989690690722rem 0.3579610538316152rem 0.5011454753642612rem 4.166666667rem;
+             grid-template-rows: minmax(2.2916666666500003rem, max-content) minmax(0.5729166666625001rem, max-content) minmax(0.3580729166640625rem, max-content) 0 0 minmax(2.2916666666500003rem, max-content) 0 0 minmax(0.2148437499984375rem, max-content) 0 minmax(0.14322916666562502rem, max-content) minmax(2.148437499984375rem, max-content) 0 minmax(3.007812499978125rem, max-content) minmax(2.2916666668333336rem, max-content);
           }
 [id='cba5184c-9294-451c-a503-d2c085e13fb2']{
-          grid-area: 2/4/3/7;
-          font-size: Max(Min(24rem, 12px),1.7361111110833332rem);
+          grid-area: 2/3/10/5;
+          font-size: Max(Min(24rem, 12px),1.718213058391753rem);
           }
 [id='0282fe5f-5fff-4766-a77e-13668af9f5de']{
-          grid-area: 6/2/8/9;
-          }
-[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024']{
-          grid-area: 4/5/5/6;
+          grid-area: 11/2/14/13;
           }
 [id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509']{
-          grid-area: 7/3/9/8;
+          grid-area: 13/4/15/6;
+          }
+[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
+          grid-area: 4/8/7/9;
+          aspect-ratio: 1;
+          }
+[id='db15260b-f48f-48aa-851f-34ccca224696']{
+          grid-area: 5/10/8/11;
+          aspect-ratio: 1;
+          }
+[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
+          grid-area: 6/12/9/14;
+          aspect-ratio: 1;
+          }
+[id='526778cd-ac9d-4738-936f-81f9e5c7304b']{
+          grid-area: 3/7/12/15;
           }[id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 4.166666667rem 11.503007321637504rem 2.6673640168249846rem 0 11.503007321637504rem 0 2.6673640168249846rem 11.503007321637504rem 4.166666667rem;
+             grid-template-columns: 4.166666667rem 11.359616960169573rem 2.63411407793121rem 0 11.359616960169573rem 0 2.63411407793121rem 11.359616960169573rem 4.166666667rem;
              grid-template-rows: minmax(0.6445312499953125rem, max-content) 0 0 minmax(1.7903645833203126rem, max-content) 0 0 minmax(2.2916666668333336rem, max-content) minmax(1.7903645833203126rem, max-content) minmax(2.2916666668333336rem, max-content);
           }
 [id='95103fb9-09fb-476d-8c89-4e531f075ded']{
           grid-area: 2/2/5/3;
-          font-size: Max(Min(16rem, 12px),1.3336820083057976rem);
+          font-size: Max(Min(16rem, 12px),1.3170570388602405rem);
           }
 [id='42c9ac80-2000-47c0-9bf1-aa90f3233a93']{
           grid-area: 3/5/6/6;
-          font-size: Max(Min(16rem, 12px),1.3336820083057976rem);
+          font-size: Max(Min(16rem, 12px),1.3170570388602405rem);
           }
 [id='72db1b49-68c2-450f-a133-c72deed0bd62']{
           grid-area: 4/8/7/9;
-          font-size: Max(Min(16rem, 12px),1.3336820083057976rem);
+          font-size: Max(Min(16rem, 12px),1.3170570388602405rem);
           }
 [id='3031cd75-ef22-4ae5-9a34-adc52f093fca']{
           grid-area: 8/4/9/7;
-          font-size: Max(Min(16rem, 12px),1.3336820083057976rem);
-          }[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024'] /deep/ > .component-wrapper{
-             display: grid; 
-             grid-template-columns: 0 2.314814814777777rem 2.314814814777777rem 2.314814814777777rem 2.314814814777777rem 2.314814814777777rem 0;
-             grid-template-rows: 0 0 0 minmax(2.2916666666500003rem, max-content) 0 0 0;
-          }
-[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
-          grid-area: 2/6/5/7;
-          aspect-ratio: 1;
-          }
-[id='db15260b-f48f-48aa-851f-34ccca224696']{
-          grid-area: 3/4/6/5;
-          aspect-ratio: 1;
-          }
-[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
-          grid-area: 4/2/7/3;
-          aspect-ratio: 1;
+          font-size: Max(Min(16rem, 12px),1.3170570388602405rem);
           }[id='30a22e21-3d93-453f-b7ad-bf8fdf41ee20'] /deep/ > .component-wrapper{
              display: grid; 
              grid-template-columns: 4.166666667rem 17.877492877206837rem 17.165242164967523rem 13.247863247651281rem 17.165242164967523rem 17.877492877206837rem 4.166666667rem;
@@ -793,57 +782,53 @@ export default {
           grid-area: 10/6/11/7;
           }[id='6900cfcb-14d1-4583-a6f7-3f354eb4b0a3'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 5rem 16.875rem 10.694444444444446rem 6.874999999999998rem 11.11111111111111rem 6.874999999999997rem 10.694444444444443rem 16.875rem 5rem;
-             grid-template-rows: minmax(2.25rem, max-content) minmax(3.3749999999999996rem, max-content) minmax(1.6874999999999998rem, max-content) minmax(2.25rem, max-content) 0 minmax(2.25rem, max-content) 0 minmax(2.9531249999999996rem, max-content) minmax(1.6874999999999998rem, max-content);
+             grid-template-columns: 5rem 0 16.701030927835053rem 7.903780068728524rem 37.869415807560145rem 5.635738831615121rem 0.41237113402061865rem 2.199312714776633rem 2.199312714776633rem 2.199312714776633rem 2.199312714776633rem 1.8556701030927838rem 0.34364261168384885rem 0.4810996563573884rem 5rem;
+             grid-template-rows: minmax(2.25rem, max-content) minmax(0.5625rem, max-content) minmax(0.3515625rem, max-content) 0 0 minmax(2.25rem, max-content) 0 0 minmax(0.21093749999999997rem, max-content) 0 minmax(0.140625rem, max-content) minmax(2.109375rem, max-content) 0 minmax(2.9531249999999996rem, max-content) minmax(2.249999999999999rem, max-content);
           }
 [id='cba5184c-9294-451c-a503-d2c085e13fb2']{
-          grid-area: 2/4/3/7;
-          font-size: Max(Min(24rem, 12px),1.6666666666666665rem);
+          grid-area: 2/3/10/5;
+          font-size: Max(Min(24rem, 12px),1.6494845360824746rem);
           }
 [id='0282fe5f-5fff-4766-a77e-13668af9f5de']{
-          grid-area: 6/2/8/9;
-          }
-[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024']{
-          grid-area: 4/5/5/6;
+          grid-area: 11/2/14/13;
           }
 [id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509']{
-          grid-area: 7/3/9/8;
+          grid-area: 13/4/15/6;
+          }
+[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
+          grid-area: 4/8/7/9;
+          aspect-ratio: 1;
+          }
+[id='db15260b-f48f-48aa-851f-34ccca224696']{
+          grid-area: 5/10/8/11;
+          aspect-ratio: 1;
+          }
+[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
+          grid-area: 6/12/9/14;
+          aspect-ratio: 1;
+          }
+[id='526778cd-ac9d-4738-936f-81f9e5c7304b']{
+          grid-area: 3/7/12/15;
           }[id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 5rem 0 16.674999999999997rem 0 2.9rem 0 16.674999999999997rem 0 5rem;
+             grid-template-columns: 5rem 0 16.455670103092785rem 0 2.8618556701030933rem 0 16.455670103092785rem 0 5rem;
              grid-template-rows: minmax(0.6328124999999999rem, max-content) 0 minmax(1.7578124999999998rem, max-content) 0 minmax(1.6874999999999998rem, max-content) 0 minmax(1.7578124999999998rem, max-content) 0 minmax(1.6874999999999998rem, max-content);
           }
 [id='95103fb9-09fb-476d-8c89-4e531f075ded']{
           grid-area: 2/2/4/5;
-          font-size: Max(Min(16rem, 12px),1.9333333333333333rem);
+          font-size: Max(Min(16rem, 12px),1.907903780068729rem);
           }
 [id='42c9ac80-2000-47c0-9bf1-aa90f3233a93']{
           grid-area: 3/6/5/9;
-          font-size: Max(Min(16rem, 12px),1.9333333333333333rem);
+          font-size: Max(Min(16rem, 12px),1.907903780068729rem);
           }
 [id='72db1b49-68c2-450f-a133-c72deed0bd62']{
           grid-area: 6/3/8/4;
-          font-size: Max(Min(16rem, 12px),1.9333333333333333rem);
+          font-size: Max(Min(16rem, 12px),1.907903780068729rem);
           }
 [id='3031cd75-ef22-4ae5-9a34-adc52f093fca']{
           grid-area: 7/7/9/8;
-          font-size: Max(Min(16rem, 12px),1.9333333333333333rem);
-          }[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024'] /deep/ > .component-wrapper{
-             display: grid; 
-             grid-template-columns: 0 2.2222222222222223rem 2.2222222222222223rem 2.2222222222222223rem 2.2222222222222223rem 2.2222222222222223rem 0;
-             grid-template-rows: 0 0 0 minmax(2.25rem, max-content) 0 0 0;
-          }
-[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
-          grid-area: 2/6/5/7;
-          aspect-ratio: 1;
-          }
-[id='db15260b-f48f-48aa-851f-34ccca224696']{
-          grid-area: 3/4/6/5;
-          aspect-ratio: 1;
-          }
-[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
-          grid-area: 4/2/7/3;
-          aspect-ratio: 1;
+          font-size: Max(Min(16rem, 12px),1.907903780068729rem);
           }[id='30a22e21-3d93-453f-b7ad-bf8fdf41ee20'] /deep/ > .component-wrapper{
              display: grid; 
              grid-template-columns: 5rem 17.162393162393165rem 16.478632478632477rem 12.717948717948717rem 16.478632478632477rem 17.162393162393165rem 5rem;
@@ -962,57 +947,53 @@ export default {
           grid-area: 10/6/11/7;
           }[id='6900cfcb-14d1-4583-a6f7-3f354eb4b0a3'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 6.4rem 15.693750000000001rem 9.945833333333333rem 6.393750000000002rem 10.333333333333334rem 6.393750000000001rem 9.945833333333335rem 15.693750000000001rem 6.4rem;
-             grid-template-rows: minmax(2.18rem, max-content) minmax(3.27rem, max-content) minmax(1.6350000000000002rem, max-content) minmax(2.18rem, max-content) 0 minmax(2.18rem, max-content) 0 minmax(2.86125rem, max-content) minmax(1.6350000000000002rem, max-content);
+             grid-template-columns: 6.4rem 0 15.531958762886594rem 7.3505154639175245rem 35.21855670103092rem 5.241237113402061rem 0.3835051546391752rem 2.0453608247422674rem 2.0453608247422674rem 2.0453608247422674rem 2.0453608247422674rem 1.7257731958762883rem 0.3195876288659793rem 0.44742268041237104rem 6.4rem;
+             grid-template-rows: minmax(2.18rem, max-content) minmax(0.545rem, max-content) minmax(0.340625rem, max-content) 0 0 minmax(2.18rem, max-content) 0 0 minmax(0.20437500000000003rem, max-content) 0 minmax(0.13625rem, max-content) minmax(2.04375rem, max-content) 0 minmax(2.86125rem, max-content) minmax(2.1800000000000015rem, max-content);
           }
 [id='cba5184c-9294-451c-a503-d2c085e13fb2']{
-          grid-area: 2/4/3/7;
-          font-size: Max(Min(24rem, 12px),1.5500000000000003rem);
+          grid-area: 2/3/10/5;
+          font-size: Max(Min(24rem, 12px),1.534020618556701rem);
           }
 [id='0282fe5f-5fff-4766-a77e-13668af9f5de']{
-          grid-area: 6/2/8/9;
-          }
-[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024']{
-          grid-area: 4/5/5/6;
+          grid-area: 11/2/14/13;
           }
 [id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509']{
-          grid-area: 7/3/9/8;
+          grid-area: 13/4/15/6;
+          }
+[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
+          grid-area: 4/8/7/9;
+          aspect-ratio: 1;
+          }
+[id='db15260b-f48f-48aa-851f-34ccca224696']{
+          grid-area: 5/10/8/11;
+          aspect-ratio: 1;
+          }
+[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
+          grid-area: 6/12/9/14;
+          aspect-ratio: 1;
+          }
+[id='526778cd-ac9d-4738-936f-81f9e5c7304b']{
+          grid-area: 3/7/12/15;
           }[id='6de1a7bc-9a75-4cfc-96e1-233a1c3c1509'] /deep/ > .component-wrapper{
              display: grid; 
-             grid-template-columns: 6.4rem 0 0 0 30.2125rem 0 0 0 6.4rem;
+             grid-template-columns: 6.4rem 0 0 0 29.769072164948444rem 0 0 0 6.4rem;
              grid-template-rows: minmax(0.613125rem, max-content) minmax(1.7031250000000002rem, max-content) minmax(1.6350000000000002rem, max-content) minmax(1.7031250000000002rem, max-content) minmax(1.6350000000000002rem, max-content) minmax(1.7031250000000002rem, max-content) minmax(1.6350000000000002rem, max-content) minmax(1.7031250000000002rem, max-content) minmax(1.6350000000000002rem, max-content);
           }
 [id='95103fb9-09fb-476d-8c89-4e531f075ded']{
           grid-area: 2/2/3/9;
-          font-size: Max(Min(16rem, 12px),3.502898550724638rem);
+          font-size: Max(Min(16rem, 12px),3.4514866278201097rem);
           }
 [id='42c9ac80-2000-47c0-9bf1-aa90f3233a93']{
           grid-area: 4/3/5/8;
-          font-size: Max(Min(16rem, 12px),3.502898550724638rem);
+          font-size: Max(Min(16rem, 12px),3.4514866278201097rem);
           }
 [id='72db1b49-68c2-450f-a133-c72deed0bd62']{
           grid-area: 6/4/7/7;
-          font-size: Max(Min(16rem, 12px),3.502898550724638rem);
+          font-size: Max(Min(16rem, 12px),3.4514866278201097rem);
           }
 [id='3031cd75-ef22-4ae5-9a34-adc52f093fca']{
           grid-area: 8/5/9/6;
-          font-size: Max(Min(16rem, 12px),3.502898550724638rem);
-          }[id='a3bc2cbd-3ddc-4f3b-9465-0f5a7011f024'] /deep/ > .component-wrapper{
-             display: grid; 
-             grid-template-columns: 0 2.066666666666667rem 2.066666666666667rem 2.066666666666667rem 2.066666666666667rem 2.066666666666667rem 0;
-             grid-template-rows: 0 0 0 minmax(2.18rem, max-content) 0 0 0;
-          }
-[id='c6564c2d-9214-4be2-9381-56c0abd9d023']{
-          grid-area: 2/6/5/7;
-          aspect-ratio: 1;
-          }
-[id='db15260b-f48f-48aa-851f-34ccca224696']{
-          grid-area: 3/4/6/5;
-          aspect-ratio: 1;
-          }
-[id='ad0e9a00-528c-42b4-8d89-19f21664f3cb']{
-          grid-area: 4/2/7/3;
-          aspect-ratio: 1;
+          font-size: Max(Min(16rem, 12px),3.4514866278201097rem);
           }[id='30a22e21-3d93-453f-b7ad-bf8fdf41ee20'] /deep/ > .component-wrapper{
              display: grid; 
              grid-template-columns: 6.4rem 15.961025641025643rem 15.325128205128205rem 11.827692307692308rem 15.325128205128202rem 15.96102564102565rem 6.4rem;
